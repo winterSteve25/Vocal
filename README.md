@@ -3,7 +3,7 @@
 A real-time vocal pitch detection application that converts your voice into MIDI signals. Sing, hum, or whistle into your microphone and watch as your voice is transformed into playable MIDI notes with visual feedback.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)
+![.NET](https://img.shields.io/badge/.NET-9.0-purple.svg)
 
 ## Features
 
@@ -26,7 +26,7 @@ A real-time vocal pitch detection application that converts your voice into MIDI
 
 ### System Requirements
 - Windows 10/11 (for teVirtualMIDI driver)
-- .NET 8.0 Runtime
+- .NET 9.0 Runtime
 - Audio input device (microphone)
 
 ### Dependencies
@@ -43,7 +43,7 @@ A real-time vocal pitch detection application that converts your voice into MIDI
 
 2. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/vocal.git
+   git clone https://github.com/winterSteve25/Vocal.git
    cd vocal
    ```
 
@@ -160,7 +160,7 @@ The application displays real-time information:
 
 ### Building from Source
 ```bash
-git clone https://github.com/yourusername/vocal.git
+git clone https://github.com/winterSteve25/Vocal.git
 cd vocal
 dotnet restore
 dotnet build --configuration Release
